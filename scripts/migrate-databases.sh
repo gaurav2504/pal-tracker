@@ -72,7 +72,7 @@ function wait_for_tunnel() {
             break
         else
             echo "Ssh tunnel not detected yet..."
-            sleep 3
+            sleep 5
         fi
     done
 
