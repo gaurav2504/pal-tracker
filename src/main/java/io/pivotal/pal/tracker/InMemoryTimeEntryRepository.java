@@ -37,6 +37,11 @@ public class InMemoryTimeEntryRepository implements TimeEntryRepository {
         return null;
     }
 
+    @Override
+    public void delete(Long timeEntryId) {
+
+    }
+
     public List list() {
         List<TimeEntry> list = new ArrayList<TimeEntry>(timesheetRepository.values());
         return list;
